@@ -26,7 +26,5 @@ public class UserRequest {
     @Email(message = "Email must be valid")
     private String email;
 
-    @Column
-    private LocalDateTime updatedAt;
 
 }
